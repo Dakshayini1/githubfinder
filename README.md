@@ -13,34 +13,40 @@ git init
 
 ### Step 2: Create index.html File
 
-```html
-<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github Finder</title>
+    <title>Github Finder Project</title>
     <link rel="stylesheet" href="style.css">
-  
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet"
+        type="text/css" />
+
 </head>
 <body>
     <div class="container">
         <header class="header d-flex between center">
-            <h2 class="logo">I'm Your Github Finder</h2>
+            <h2 class="logo">Github</h2>
         </header>
         <form class="search-form d-flex between center">
             <i class="far fa-fw fa-search"></i>
-            <input type="text" placeholder="Kindly Enter UserName" class="keyword">
+            <input type="text" placeholder="Search Github username" class="keyword">
             <button class="btn" type="submit">Search</button>
         </form>
 
         <div class="user-card">
-            <div class="loader">This Section is for Display Details...</div>
+            <div class="loader">Please enter your Github username</div>
         </div>
     </div>
+
     <script src="index.js"></script>
 </body>
 </html>
+
 ```
 ### Step 3: Create style.css File
 
